@@ -81,7 +81,7 @@ const Register = () => {
           value={"Register"}
           onClick={reg_submit}
         />
-        <div>
+        <div className="option">
           Have an account? <Link to={"../"}>Login</Link>
         </div>
       </form>

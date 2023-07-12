@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="body">
-      <form className="form">
-        <div className="Login">Login</div>
+      <form className="form_reg">
+        <div className="login">Login</div>
         <input
           type="text"
           name="firstName"
@@ -19,9 +19,9 @@ const Home = () => {
           placeholder="Input Password"
           className="input-field"
         />
-        <input name="button" type="submit" value={"Login"} />
+        <input className='btn' name="button" type="submit" value={"Login"} />
 
-        <div>
+        <div className='option'>
           Don't have an account? <Link to={'/register'}>Register</Link>
         </div>
       </form>

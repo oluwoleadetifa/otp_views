@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   
-  .form{
+  .form_reg{
     width: clamp(100px, 50vw, 400px);
     height: 75%;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);;
@@ -15,10 +15,51 @@
     justify-content: center;
     align-items: center;
 
+    .login{
+      color: white;
+      font-size: clamp(15px, 30px, 40px);
+      margin: 10px;
+    }
+
+     .btn{
+      padding: clamp(10px, 4%, 12px);
+      width: clamp(250px, 50%, 400px);
+      border: none;
+      background: #e05959;
+      border-radius: 5px 5px;
+      color: white;
+    }
+
+
     .input-field{
       width: 80%;
       height: clamp(12px, 40px, 60px);
-      margin-bottom: 2%;
+      margin-bottom: 5%;
+      border-radius: 10px 10px;
+      border: none;
+      text-align: center;
+    }
+
+    .option{
+      margin-top: 5%;
+      color: antiquewhite;
+
+      a{
+        text-decoration: none;
+        color: burlywood;
+      }
+
+      a:visited{
+        text-decoration: none;
+      }
+      a:hover{
+        opacity: 0.8;
+        color: red;
+        text-decoration: none;
+      }
+      a:active{
+        text-decoration: none;
+      }
     }
   }
 }
